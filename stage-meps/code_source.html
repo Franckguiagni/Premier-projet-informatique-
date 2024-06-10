@@ -1,0 +1,1076 @@
+<body>
+    <h1 style="text-align: center;">FORMULAIRE D'ENREGISTREMENT DES NOUVEAUX AGENTS<br><h2 style="text-align: center;"> MINISTERE DE L'EMPLOI ET DE LA PROTECTION SOCIALE</h2>
+    
+        <div>
+            <label for="matricule">MATRICULE AGENT:</label>
+            <input type="text" id="matricule" name="matricule" required>
+        </div>
+        <div>
+            <label for="nom">NOM:</label>
+            <input type="text" id="nom" name="nom" required>
+        </div>
+        <div>
+            <label for="prenoms">PRENOMS:</label>
+            <input type="text" id="prenoms" name="prenoms" required>
+        </div>
+        <div>
+            <label for="date_naissance">DATE DE NAISSANCE:</label>
+            <input type="date" id="date_naissance" name="date_naissance" required>
+        </div>
+        <div>
+            <p>SEXE:</p>
+            <label><input type="radio" name="sexe" value="homme" required> Homme</label>
+            <label><input type="radio" name="sexe" value="femme" required> Femme</label>
+        </div>
+        <div>
+            <p>STATUT:</p>
+            <label><input type="radio" name="statut" value="fonctionnaire" required> Fonctionnaire</label>
+            <label><input type="radio" name="statut" value="contractuel" required> Contractuel</label>
+        </div>
+        <div>
+            <label for="nom_pere">NOM DU PERE:</label>
+            <input type="text" id="nom_pere" name="nom_pere">
+        </div>
+        <div>
+            <label for="nom_mere">NOM DE LA MERE:</label>
+            <input type="text" id="nom_mere" name="nom_mere">
+        </div>
+        <div>
+            <label for="situation_matrimoniale">SITUATION MATRIMONIALE:</label>
+            <select id="situation_matrimoniale" name="situation_matrimoniale" required>
+                <option value="celibataire">Célibataire</option>
+                <option value="marie">Marié(e)</option>
+                <option value="divorce">Divorcé(e)</option>
+            </select>
+        </div>
+        <div>
+            <label for="nombre_enfants">NOMBRE D'ENFANTS:</label>
+            <input type="number" id="nombre_enfants" name="nombre_enfants" min="0">
+        </div>
+        <div>
+            <label for="emploi_precedent">EMPLOI PRECEDENT:</label>
+            <input type="text" id="emploi_precedent" name="emploi_precedent">
+        </div>
+        <div>
+            <label for="grade">GRADE:</label>
+            <selecD2 id="grade" name="grade" required>
+                <!-- Insérer ici la liste des grades -->
+                <option value="A7">Grade A7</option>
+                <option value="A6">Grade A6</option>
+                <option value="A5">Grade A5</option>
+                <option value="A4">Grade A4</option>
+                <option value="A3">Grade A3</option>
+                <option value="A2">Grade A2</option>
+                <option value="A1">Grade A1</option>
+                <option value="B1">Grade B1</option>
+                <option value="B3">Grade B2</option>
+                <option value="C1">Grade C1</option>
+                <option value="C2">Grade C2</option>
+                <option value="C3">Grade C3</option>
+                <option value="D1">Grade D1</option>
+                <option value="D2">Grade D2</option>
+                <!-- Ajoutez d'D2tres options selon5les grades disponibles -->
+            </selecD2>
+        </div> 
+        <div>
+            <label for="fonction_actuelle">Fonction actuelle:</label>
+            <input type="text" id="fonction_actuelle" name="fonction_actuelle" required>
+        </div>
+        <div>
+            <label for="contact">Contact:</label>
+            <input type="tel" id="contact" name="contact" pattern="[0-9]{10}" placeholder="10 chiffres sans espace" required>
+        </div>
+        <div>
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="photo">Photo de profil:</label>
+            <input type="file" id="photo" name="photo" accept="image/*">
+        </div>
+        <button type="submit">ENVOYER</button>
+    </form>
+
+
+    <footer class="border-top"  style="text-align: center";>
+        <div class="container py-5">
+          <div class="row gy-4 align-items-center" style="text-align: right;">
+            <div class="col-6 col-md-4 text-md-center" style="text-align: right;">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal"
+                     data-bs-target="#mentionsLegales">
+                     <span class="bg-primary bg-gradient p-1 rounded-3 text-light style="text-align: right;>mentions Legales</span></a>
+                    </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4 text-md-end" style="text-align: right;">
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                  <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="LinkedIn">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Instagram">
+                    <i class="fab fa-instagram-square fa-2x"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Twitter">
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.bing.com/ck/a?!&&p=1b3cc33ac3d580faJmltdHM9MTcxMjc5MzYwMCZpZ3VpZD0wNzQzMDNjYy1lMGUyLTY
+                  3YzktMWE0Mi0xNzhhZTFlYTY2NDQmaW5zaWQ9NTE4NQ&ptn=3&ver=2&hsh=3&fclid=074303cc-e0e2-67c9-1a42-
+                  178ae1ea6644&psq=paege+facebook+ministere+de+l%27emploi+et+de+la+protection+sociale&u=a1aHR0cHM6Ly93d3cuZmF
+                  jZWJvb2suY29tL3Blb3BsZS9NaW5pc3QlQzMlQThyZS1kZS1sRW1wbG9pLWV0LWRlLWxhLVByb3RlY3Rpb24tU29jaWF
+                  sZS1PZmZpY2llbC8xMDAwNjM2NjMxNjIxMjAv&ntb=1" 
+                  class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Facebook">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+                </script>
+                <center>
+          <div>
+          <marquee style="color:white;background-color:black;" 1px brown; font-weight:bold; font-variant: small-caps; color:#000000; height:200px; 
+          width:400px; text-align:center;margin:auto;” direction=“up” scrollamount=“6” fontsize=black>MINISTERE DE L'EMPLOI ET DE LA PROTECTION SOCIALE
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WWWW.DRHMEPS.NET&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DRHMEPS@GMAIL.COM 
+        </marquee>
+        </div>
+              </center>
+      </footer> 
+
+ 
+      <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+        <span class="bg-primary bg-gradient p-1 rounded-3 text-light"><h3>MINISTERE DE L'EMPLOI ET DE LA PROTECTION SOCIALE</h3></span> 
+            </a>
+             &nbsp;
+             &nbsp;
+             &nbsp;
+             &nbsp;
+             &nbsp;
+             &nbsp;
+          <div class="container">
+            <a class="navbar-brand text-uppercase fw-bold" href="#">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="navbar-brand text-uppercase fw-bold" link href="QuiSommeNous.html">
+                <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Qui sommes nous ?</span></a>
+                </li>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <li class="nav-item">
+                <a class="navbar-brand text-uppercase fw-bold" href="expertise.html">
+                <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Expertises</span></a>
+                </li>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <li class="nav-item">
+                <a class="navbar-brand text-uppercase fw-bold" href="contact.html">
+                <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Contact</span></a>
+                </li>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <li class="nav-item">
+                <a class="navbar-brand text-uppercase fw-bold" href="login.php">
+                <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Se connecter</span></a>
+                </li>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <li class="nav-item">
+                <a class="navbar-brand text-uppercase fw-bold" href="inscription_liste.php">
+                <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Les inscrits</span></a>
+                </li>
+    
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+
+
+
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire d'inscription de l'agent</title>
+    <style>
+        .form-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .form-container > div {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <h2>Inscription de l'Agent</h2>
+    <form action="/submit_form" method="POST" enctype="multipart/form-data">
+        <div class="form-container">
+            <div><label for="matricule">Matricule de l'agent:</label></div>
+            <div><input type="text" id="matricule" name="matricule" required></div>
+        </div>
+        <div class="form-container">
+            <div><label for="nom">Nom:</label></div>
+            <div><input type="text" id="nom" name="nom" required></div>
+        </div>
+        <div class="form-container">
+            <div><label for="prenoms">Prénoms:</label></div>
+            <div><input type="text" id="prenoms" name="prenoms" required></div>
+        </div>
+        <div class="form-container">
+            <div><label for="date_naissance">Date de naissance:</label></div>
+            <div><input type="date" id="date_naissance" name="date_naissance" required></div>
+        </div>
+        <div class="form-container">
+            <div>Sexe:</div>
+            <div>
+                <label><input type="radio" name="sexe" value="homme" required> Homme</label>
+                <label><input type="radio" name="sexe" value="femme" required> Femme</label>
+            </div>
+        </div>
+        <div class="form-container">
+            <div>Statut:</div>
+            <div>
+                <label><input type="radio" name="statut" value="fonctionnaire" required> Fonctionnaire</label>
+                <label><input type="radio" name="statut" value="contractuel" required> Contractuel</label>
+            </div>
+        </div>
+        <div class="form-container">
+            <div><label for="nom_pere">Nom du père:</label></div>
+            <div><input type="text" id="nom_pere" name="nom_pere"></div>
+        </div>
+        <div class="form-container">
+            <div><label for="nom_mere">Nom de la mère:</label></div>
+            <div><input type="text" id="nom_mere" name="nom_mere"></div>
+        </div>
+        <div class="form-container">
+            <div><label for="situation_matrimoniale">Situation matrimoniale:</label></div>
+            <div>
+                <select id="situation_matrimoniale" name="situation_matrimoniale" required>
+                    <option value="celibataire">Célibataire</option>
+                    <option value="marie">Marié(e)</option>
+                    <option value="divorce">Divorcé(e)</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-container">
+            <div><label for="nombre_enfants">Nombre d'enfants:</label></div>
+            <div><input type="number" id="nombre_enfants" name="nombre_enfants" min="0"></div>
+        </div>
+        <div class="form-container">
+            <div><label for="emploi_precedent">Emploi précédent:</label></div>
+            <div><input type="text" id="emploi_precedent" name="emploi_precedent"></div>
+        </div>
+        <div class="form-container">
+            <div><label for="grade">Grade:</label></div>
+            <div>
+                <select id="grade" name="grade" required>
+                    <option value="A7">Grade A7</option>
+                    <option value="A6">Grade A6</option>
+                    <option value="A5">Grade A5</option>
+                    <option value="A4">Grade A4</option>
+                    <option value="A3">Grade A3</option>
+                    <option value="A2">Grade A2</option>
+                    <option value="A1">Grade A1</option>
+                    <option value="B1">Grade B1</option>
+                    <option value="B3">Grade B2</option>
+                    <option value="C1">Grade C1</option>
+                    <option value="C2">Grade C2</option>
+                    <option value="C3">Grade C3</option>
+                    <option value="D1">Grade D1</option>
+                    <option value="D2">Grade D2</option>
+                    <!-- Ajoutez d'autres options selon les grades disponibles -->
+                </select>
+            </div>
+        </div>
+        <div class="form-container">
+            <div><label for="fonction_actuelle">Fonction actuelle:</label></div>
+            <div><input type="text" id="fonction_actuelle" name="fonction_actuelle" required></div>
+        </div>
+        <div class="form-container">
+            <div><label for="contact">Contact:</label></div>
+            <div><input type="tel" id="contact" name="contact" pattern="[0-9]{10}" placeholder="10 chiffres sans espace" required></div>
+        </div>
+        <div class="form-container">
+            <div><label for="email">Email:</label></div>
+            <div><input type="email" id="email" name="email" required></div>
+        </div>
+        <div class="form-container">
+            <div><label for="photo">Photo de profil:</label></div>
+            <div><input type="file" id="photo" name="photo" accept="image/*"></div>
+        </div>
+        <div class="form-container">
+            <div></div>
+            <div><button type="submit">S'inscrire</button></div>
+        </div>
+    </form>
+</body>
+</html>
+
+
+
+
+<form id="inscription_post_" name="inscription_post_" action="inscription_post.php" method="post" style="text-align:center;">
+    <body>  
+        <div class="form-container">
+                <div><label for="matricule">Matricule de l'agent:</label></div>
+                <div><input type="text" id="matricule_agent" name="matricule_agent" required></div>
+            </div>
+            <div class="form-container">
+                <div><label for="nom">Nom:</label></div>
+                <div><input type="text" id="nom" name="nom" required></div>
+            </div>
+            <div class="form-container">
+                <div><label for="prenoms">Prénoms:</label></div>
+                <div><input type="text" id="prenoms" name="prenoms" required></div>
+            </div>
+            <div class="form-container">
+                <div><label for="date_naissance">Date de naissance:</label></div>
+                <div><input type="date" id="date_naissance" name="date_naissance" required></div>
+            </div>
+            <div class="form-container">
+                <div>Sexe:</div>
+                <div>
+                    <label type="text" id="sexes_id" name="sexes_id" required><input type="radio" name="sexes_id" value="homme" required> Homme</label>
+                    <label><input type="radio" name="sexes_id" value="femme" required> Femme</label>
+                </div>
+            </div>
+            <div class="form-container">
+                <div>Statut:</div>
+                <div>
+                    <label type="text" id="statuts_id" name="statuts_id" required><input type="radio" name="statuts_id" value="fonctionnaire" required> Fonctionnaire</label>
+                    <label><input type="radio" name="statuts_id" value="contractuel" required> Contractuel</label>
+                </div>
+            </div>
+            <div class="form-container">
+                <div><label for="nom_pere">Nom du père:</label></div>
+                <div><input type="text" id="nom_prenoms_pere" name="nom_prenoms_pere"></div>
+            </div>
+            <div class="form-container">
+                <div><label for="nom_mere">Nom de la mère:</label></div>
+                <div><input type="text" id="nom_prenoms_mere" name="nom_prenoms_mere"></div>
+            </div>
+            <div class="form-container">
+                <div><label for="situation_matrimoniale">Situation matrimoniale:</label></div>
+                <div>
+                    <select id="situations_matrimoniale_id" name="situations_matrimoniale_id" required>
+                        <option value="celibataire">Célibataire</option>
+                        <option value="marie">Marié(e)</option>
+                        <option value="divorce">Divorcé(e)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-container">
+                <div><label for="nombre_enfants">Nombre d'enfants:</label></div>
+                <div><input type="number" id="nombre_enfants" name="nombre_enfants" min="0"></div>
+            </div>
+            <div class="form-container">
+                <div><label for="emploi_precedent">Emploi précédent:</label></div>
+                <div><input type="text" id="emploi_precedent" name="emploi_precedent"></div>
+            </div>
+            <div class="form-container">
+                <div><label for="grade"type="text" id="grades_id" name="grades_id" required>Grade:</label></div>
+                <div>
+                    <select id="grades_id" name="grades_id" required>
+                    <select class="form-control" id="grades_id" name="grades_id" required>
+
+                        <option value="A7">Grade A7</option>
+                        <option value="A6">Grade A6</option>
+                        <option value="A5">Grade A5</option>
+                        <option value="A4">Grade A4</option>
+                        <option value="A3">Grade A3</option>
+                        <option value="A2">Grade A2</option>
+                        <option value="A1">Grade A1</option>
+                        <option value="B1">Grade B1</option>
+                        <option value="B3">Grade B2</option>
+                        <option value="C1">Grade C1</option>
+                        <option value="C2">Grade C2</option>
+                        <option value="C3">Grade C3</option>
+                        <option value="D1">Grade D1</option>
+                        <option value="D2">Grade D2</option>
+                        <!-- Ajoutez d'autres options selon les grades disponibles -->
+                    </select>
+                </div>
+            </div>
+            <div class="form-container">
+                <div><label for="fonction_actuelle">Fonction actuelle:</label></div>
+                <div><input type="text" id="fonction_actuelle" name="fonction_actuelle" required></div>
+            </div>
+            <div class="form-container">
+                <div><label for="contact">Contact:</label></div>
+                <div><input type="tel" id="contact" name="contact" pattern="[0-9]{10}" placeholder="10 chiffres sans espace" required></div>
+            </div>
+            <div class="form-container">
+                <div><label for="email">Email:</label></div>
+                <div><input type="email" id="email" name="email" required></div>
+            </div>
+    
+            <div class="upload-area" id="upload-file-container">
+                <i class="fas fa-cloud-upload-alt upload-icon"></i>
+                <span class="upload-instructions">Cliquez ou déposez un fichier pour télécharger</span>
+                <input type="file" id="photo" name="photo" accept="image/*" onchange="previewImage();">
+                <img id="file-preview" class="file-preview" />
+            </div>
+            
+            <div class="form-container" style="text-align: center;">
+                <div></div>
+                <div><button type="submit">S'inscrire</button></div>
+            </div> 
+    </form>
+
+
+
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'Inscription</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container mt-4">
+        <form id="inscription_post_" name="inscription_post_" action="inscription_post.php" method="post">
+            <!-- Matricule de l'agent -->
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="matricule_agent" class="form-label">Matricule de l'agent:</label>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="matricule_agent" name="matricule_agent" required>
+                </div>
+            </div>
+
+            <!-- Nom -->
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="nom" class="form-label">Nom:</label>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="nom" name="nom" required>
+                </div>
+            </div>
+
+            <!-- Prénoms -->
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="prenoms" class="form-label">Prénoms:</label>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="prenoms" name="prenoms" required>
+                </div>
+            </div>
+
+            <!-- Date de naissance -->
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="date_naissance" class="form-label">Date de naissance:</label>
+                </div>
+                <div class="col-md-8">
+                    <input type="date" class="form-control" id="date_naissance" name="date_naissance" required>
+                </div>
+            </div>
+
+            <!-- Sexe -->
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label class="form-label">Sexe:</label>
+                </div>
+                <div class="col-md-8">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="sexes_id" id="homme" value="homme" required>
+                        <label class="form-check-label" for="homme">Homme</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="sexes_id" id="femme" value="femme" required>
+                        <label class="form-check-label" for="femme">Femme</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statut -->
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label class="form-label">Statut:</label>
+                </div>
+                <div class="col-md-8">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="statuts_id" id="fonctionnaire" value="fonctionnaire" required>
+                        <label class="form-check-label" for="fonctionnaire">Fonctionnaire</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="statuts_id" id="contractuel" value="contractuel" required>
+                        <label class="form-check-label" for="contractuel">Contractuel</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ajouter les autres champs en suivant le même modèle -->
+
+            <!-- Bouton Soumettre -->
+            <div class="row mb-3">
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">S'inscrire</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'Inscription</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container mt-4">
+        <form id="inscription_post_" name="inscription_post_" action="inscription_post.php" method="post">
+            <!-- Champs du formulaire -->
+            <div class="row mb-3">
+                <div class="col-md-4"><label for="matricule_agent" class="form-label">Matricule de l'agent:</label></div>
+                <div class="col-md-8"><input type="text" class="form-control" id="matricule_agent" name="matricule_agent" required></div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4"><label for="nom" class="form-label">Nom:</label></div>
+                <div class="col-md-8"><input type="text" class="form-control" id="nom" name="nom" required></div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4"><label for="prenoms" class="form-label">Prénoms:</label></div>
+                <div class="col-md-8"><input type="text" class="form-control" id="prenoms" name="prenoms" required></div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4"><label for="date_naissance" class="form-label">Date de naissance:</label></div>
+                <div class="col-md-8"><input type="date" class="form-control" id="date_naissance" name="date_naissance" required></div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-4"><label for="nom_pere" class="form-label">Nom du père:</label></div>
+                <div class="col-md-8"><input type="text" class="form-control" id="nom_prenoms_pere" name="nom_prenoms_pere"></div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4"><label for="nom_mere" class="form-label">Nom de la mère:</label></div>
+                <div class="col-md-8"><input type="text" class="form-control" id="nom_prenoms_mere" name="nom_prenoms_mere"></div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4"><label for="situation_matrimoniale" class="form-label">Situation matrimoniale:</label></div>
+                <div class="col-md-8">
+                    <select class="form-control" id="situations_matrimoniale_id" name="situations_matrimoniale_id" required>
+                        <option value="celibataire">Célibataire</option>
+                        <option value="marie">Marié(e)</option>
+                        <option value="divorce">Divorcé(e)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4"><label for="nombre_enfants" class="form-label">Nombre d'enfants:</label></div>
+                <div class="col-md-8"><input type="number" class="form-control" id="nombre_enfants" name="nombre_enfants" min="0"></div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4"><label for="emploi_precedent" class="form-label">Emploi précédent:</label></div>
+                <div class="col-md-8"><input type="text" class="form-control" id="emploi_precedent" name="emploi_precedent"></div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4"><label for="grades_id" class="form-label">Grade:</label></div>
+                <div class="col-md-8">
+                    <select class="form-control" id="grades_id" name="grades_id" required>
+                        <option value="A7">Grade A7</option>
+                        <option value="A6">Grade A6</option>
+                        <option value="A5">Grade A5</option>
+                        <option value="A4">Grade A4</option>
+                        <option value="A3">Grade A3</option>
+                        <option value="A2">Grade A2</option>
+                        <option value="A1">Grade A1</option>
+                        <option value="B1">Grade B1</option>
+                        <option value="B3">Grade B2</option>
+                        <option value="C1">Grade C1</option>
+                        <option value="C2">Grade C2</option>
+                        <option value="C3">Grade C3</option>
+                        <option value="D1">Grade D1</option>
+                        <option value="D2">Grade D2</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4"><label for="fonction_actuelle" class="form-label">Fonction actuelle:</label></div>
+                <div class="col-md-8"><input type="text" class="form-control" id="fonction_actuelle" name="fonction_actuelle" required></div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4"><label for="contact" class="form-label">Contact:</label></div>
+                <div class="col-md-8"><input type="tel" class="form-control" id="contact" name="contact" pattern="[0-9]{10}" placeholder="10 chiffres sans espace" required></div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4"><label for="email" class="form-label">Email:</label></div>
+                <div class="col-md-8"><input type="email" class="form-control" id="email" name="email" required></div>
+            </div>
+
+            <!-- Zone de téléchargement -->
+            <div class="row mb-3">
+                <div class="col-12">
+                    <div class="upload-area" id="upload-file-container">
+                        <i class="fas fa-cloud-upload-alt upload-icon"></i>
+                        <span class="upload-instructions">Cliquez ou déposez un fichier pour télécharger</span>
+                        <input type="file" id="photo" name="photo" accept="image/*" onchange="previewImage();">
+                        <img id="file-preview" class="file-preview" />
+                    </div>
+                </div>
+            </div
+
+
+
+<?php
+//var_dump($_POST);
+// Paramètres de connexion à la base de données
+$host = 'localhost';  // ou l'adresse du serveur de la base de données
+$dbname = 'stage_meps_';
+$username = 'root';
+$password = '';
+
+try {
+    // Connexion à la base de données
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    // Requête pour obtenir la dernière occurrence
+    $sql = "SELECT * FROM inscription ORDER BY id DESC LIMIT 1";
+    $stmt = $pdo->query($sql);
+
+    // Récupération de la dernière inscription
+    $inscription = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    
+} catch (PDOException $e) {
+    die("Erreur de connexion à la base de données: " . $e->getMessage());
+}
+?>
+
+
+</*!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+        <title>Renseignement du personnel</title>
+</*link rel="stylesheet" href="app.css"/*/>
+</*link rel="stylesheet" href="login_style.css"/*/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Romanesco&family=Rubik+Scribble&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    
+    <?php
+
+include 'header.php';
+?>
+
+<?php
+  
+echo "<p>INSCRITS :
+<br>
+NOM : ".$inscription['nom']."
+<br>
+PRENOMS :".$inscription['prenoms']."
+<br>
+DATE DE NAISSANCE :".$inscription['date_naissance']."
+<br>
+SEXE :".$inscription['sexes_id']."
+<br>
+STATUT :".$inscription['statuts_id']."
+<br>
+NOM DE PERE :".$inscription['nom_prenoms_pere']."
+<br>
+NOM DE LA MERE:".$inscription['nom_prenoms_mere']."
+<br>
+NOMBRE D'ENFANTS:".$inscription['nombre_enfants']."
+<br>
+EMPLOI PRECEDENT :".$inscription['emploi_precedent']."
+<br>
+GRADE :".$inscription['grades_id']."
+<br>
+FONCTION ACTUELLE :".$inscription['fonction_actuelle']."
+<br>
+CONTACT :".$inscription['contact']."
+<br>
+EMAIL :".$inscription['email']."
+<br>
+PHOTO :".$inscription['photo']
+
+
+
+?>
+
+
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+            </script>
+           
+  </footer>         
+    </body>
+</html>
+
+
+<br>
+    <br>
+    <br>
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+        <span class="bg-primary bg-gradient p-1 rounded-3 text-light"><h3>MINISTERE DE L'EMPLOI ET DE LA PROTECTION SOCIALE</h3></span> 
+            </a>
+             &nbsp;
+             &nbsp;
+             &nbsp;
+          <div class="container">
+            <a class="navbar-brand text-uppercase fw-bold" href="#">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                &nbsp;
+                &nbsp;
+                <li class="nav-item">
+                <a class="navbar-brand text-uppercase fw-bold" href="contact.html">
+                <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Contact</span></a>
+                </li>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <li class="nav-item">
+                <a class="navbar-brand text-uppercase fw-bold" href="login.php">
+                <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Se connecter</span></a>
+                </li>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <li class="nav-item">
+                <a class="navbar-brand text-uppercase fw-bold" href="inscription_liste.php">
+                <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Les inscrits</span></a>
+                </li>
+    
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <?php
+
+include 'database.php';
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+        <title>Renseignement du personnel</title>
+        <link rel="stylesheet" href="app.css"/>
+        <link rel="stylesheet" href="login_style.css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Romanesco&family=Rubik+Scribble&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+  
+    </head>
+    <body>
+    
+    <?php
+
+include 'header.php';
+?>
+
+<?php
+  
+// On affiche chaque recette une à une
+foreach ($inscriptions as $inscription) 
+{
+    //var_dump($inscription);
+   // exit;
+    
+    
+echo "<p>LISTES DES INSCRITS:
+<br>
+<br>
+<br>
+<br>NOM : ".$inscription['nom']." <br>PRENOMS :".$inscription['prenoms']." 
+<br>DATE DE NAISSANCE :".$inscription['date_naissance']."<br>SEXE :".$inscription['sexes_id']."
+<br>STATUT :".$inscription['statuts_id']."<br>NOM DU PERE :".$inscription['nom_prenoms_pere']."
+<br>NOM DE LA MERE :".$inscription['nom_prenoms_mere']."
+<br>SITUATION MATRIMONIALE :".$inscription['situations_matrimoniale_id']."
+<br>NOMBRE D'ENFANTS :".$inscription['nombre_enfants'].
+"<br>EMPLOI PRECEDENT :".$inscription['emploi_precedent']."<br>GRADE :".$inscription['grasde_id']."
+<br>FONCTIN ACTUELLE :".$inscription['fonction_actuelle']."<br>CONTACT :".$inscription['contact']."
+<br>EMAIL :".$inscription['email']."<br>PHOTO :".$inscription['photo'];
+echo '<br>';
+echo '<br>';
+echo '<br>';
+
+}
+?>
+
+
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+            </script>
+           
+  </footer>         
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FORMULAIRE D'INSCRIPTION</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="form_style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>INSCRIPTION</h1>
+        <div class="container mt-4">
+            <form id="inscription_post_" name="inscription_post_" action="inscription_post.php" method="post">
+                <!-- Matricule de l'agent -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="matricule_agent" class="form-label">Matricule de l'agent:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="matricule_agent" name="matricule_agent" required>
+                    </div>
+                </div>
+
+                <!-- Nom -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="nom" class="form-label">Nom:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="nom" name="nom" required>
+                    </div>
+                </div>
+
+                <!-- Prénoms -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="prenoms" class="form-label">Prénoms:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="prenoms" name="prenoms" required>
+                    </div>
+                </div>
+
+                <!-- Date de naissance -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="date_naissance" class="form-label">Date de naissance:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="date" class="form-control" id="date_naissance" name="date_naissance" required>
+                    </div>
+                </div>
+
+                <!-- Sexe -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label class="form-label">Sexe:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <select class="form-control" id="sexes_id" name="sexes_id" required>
+                            <option value="1">Homme</option>
+                            <option value="2">Femme</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Statut -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label class="form-label">Statut:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <select class="form-control" id="statuts_id" name="statuts_id" required>
+                            <option value="1">Fonctionnaire</option>
+                            <option value="2">Contractuel</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Nom du père -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="nom_prenoms_pere" class="form-label">Nom du père:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="nom_prenoms_pere" name="nom_prenoms_pere">
+                    </div>
+                </div>
+
+                <!-- Nom de la mère -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="nom_prenoms_mere" class="form-label">Nom de la mère:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="nom_prenoms_mere" name="nom_prenoms_mere">
+                    </div>
+                </div>
+
+                <!-- Situation matrimoniale -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="situations_matrimoniale_id" class="form-label">Situation matrimoniale:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <select class="form-control" id="situations_matrimoniale_id" name="situations_matrimoniale_id" required>
+                            <option value="1">Célibataire</option>
+                            <option value="2">Marié(e)</option>
+                            <option value="3">Divorcé(e)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Nombre d'enfants -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="nombre_enfants" class="form-label">Nombre d'enfants:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="number" class="form-control" id="nombre_enfants" name="nombre_enfants" min="0">
+                    </div>
+                </div>
+
+                <!-- Emploi précédent -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="emploi_precedent" class="form-label">Emploi précédent:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="emploi_precedent" name="emploi_precedent">
+                    </div>
+                </div>
+
+                <!-- Grade -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="grades_id" class="form-label">Grade:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <select class="form-control" id="grades_id" name="grades_id" required>
+                            <option value="1">Grade A7</option>
+                            <option value="2">Grade A6</option>
+                            <option value="3">Grade A5</option>
+                            <option value="4">Grade A4</option>
+                            <option value="5">Grade A3</option>
+                            <option value="6">Grade A2</option>
+                            <option value="7">Grade A1</option>
+                            <option value="8">Grade B1</option>
+                            <option value="9">Grade B2</option>
+                            <option value="10">Grade C1</option>
+                            <option value="11">Grade C2</option>
+                            <option value="12">Grade C3</option>
+                            <option value="13">Grade D1</option>
+                            <option value="14">Grade D2</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Fonction actuelle -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="fonction_actuelle" class="form-label">Fonction actuelle:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="fonction_actuelle" name="fonction_actuelle" required>
+                    </div>
+                </div>
+
+                <!-- Contact -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="contact" class="form-label">Contact:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="tel" class="form-control" id="contact" name="contact" pattern="[0-9]{10}" placeholder="10 chiffres sans espace" required>
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="email" class="form-label">Email:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                </div>
+
+                <!-- Zone de téléchargement -->
+                <div class="row mb-3">
